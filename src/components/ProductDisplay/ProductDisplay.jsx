@@ -6,7 +6,7 @@ import { ShopContext } from '../../Context/ShopContext'
 
 const ProductDisplay = (props) => {
     const { product } = props;
-    const {addToCart} = useContext(ShopContext);
+    const { addToCart } = useContext(ShopContext);
     return (
         <div className='productdisplay'>
             <div className="productdisplay-left">
@@ -35,19 +35,19 @@ const ProductDisplay = (props) => {
                     <div className="productdisplay-right-price-new">${product.new_price}</div>
                 </div>
                 <div className="productdisplay-right-description">
-                    A light weight usuallyt knikked pullover shirt, fitting end with a round and short sleeves worn as an undershirt or other garments
+                    A light weight usually knikked pullover shirt, fitting end with a round and short sleeves worn as an undershirt or other garments
                 </div>
                 <div className="productdisplay-right-size">
                     <h1>Select Size</h1>
                     <div className="productdisplay-right-sizes">
-                        <div>S</div>
-                        <div>M</div>
-                        <div>L</div>
-                        <div>XL</div>
-                        <div>XXL</div>
+                        <div tabIndex="0">S</div>
+                        <div tabIndex="0">M</div>
+                        <div tabIndex="0">L</div>
+                        <div tabIndex="0">XL</div>
+                        <div tabIndex="0">XXL</div>
                     </div>
                 </div>
-                <button onClick={()=>{addToCart(product.id)}}>ADD TO CART</button>
+                <button onClick={() => { addToCart(product.id) }}>ADD TO CART</button>
                 <p className='productdisplay-right-category'><span>Category : </span>Women, T-Shirt, Crop Top</p>
                 <p className='productdisplay-right-category'><span>Tags : </span>Modern, Latest</p>
             </div>

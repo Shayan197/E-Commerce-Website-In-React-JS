@@ -51,6 +51,7 @@
     text-decoration: underline;
     font-weight: 600;
     color: #ff4141;
+    cursor: pointer;
 }
 .loginsignup-agree{
     display: flex;
@@ -60,4 +61,8 @@
     color: #5c5c5c;
     font-size: 18px;
     font-weight: 500;
+}
+.loginsignup-agree input:hover{
+    transform: scale(1.2);
+    cursor: pointer;
 }

@@ -15,9 +15,15 @@
     border: 1px solid #d0d0d0;
     cursor: pointer;
 }
-.descriptionbox-nav-box.fade{
-    background: #fbfbfb;
-    color: #555;
+.descriptionbox-nav-box:hover{
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.321);
+    transform: scale(1.01);
+    transition: all 0.5s ease;
+}
+.descriptionbox-nav-box:focus{
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.321);
+    transform: scale(1.01);
+    transition: all 0.5s ease;
 }
 .descriptionbox-description{
     display: flex;

@@ -1,12 +1,12 @@
 import React from 'react'
 import './RelatedProducts.css'
-import data_products from '../Assets/data';
+import data_products from '../Assets/new_collections';
 import Item from '../Item/Item';
 
 const RelatedProducts = () => {
   return (
     <div className='relatedproducts'>
-      <h1>Related Poduccts</h1>
+      <h1>Related Products</h1>
       <hr />
       <div className="relatedproducts-item">
         {

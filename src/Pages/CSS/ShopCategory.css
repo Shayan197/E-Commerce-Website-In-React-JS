@@ -17,6 +17,10 @@
     font-weight: 500;
     cursor: pointer;
 }
+.shopcategory-sort:hover,.shopcategory-sort img:hover{
+    transform: scale(1.05);
+    color: #3e3d3d;
+}
 .shopcategory-indexsort p{
     font-weight: 400;
     font-size: 20px;
@@ -43,4 +47,10 @@
     font-size: 18px;
     font-weight: 500;
     cursor: pointer;
+}
+.shopcategory-loadmore:hover{
+    transform: scale(1.03);
+    background: #d2cfcf9f;
+    color: #3e3d3d;
+
 }

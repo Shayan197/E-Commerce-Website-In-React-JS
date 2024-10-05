@@ -43,6 +43,12 @@
     color: white;
     font-size: 22px;
     font-weight: 500;
+    cursor: pointer;
+}
+.hero-latest-button:hover{
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.321);
+    transform: scale(1.01);
+    transition: all 0.5s ease;
 }
 .hero-right{
     flex: 1;

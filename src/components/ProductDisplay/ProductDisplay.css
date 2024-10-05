@@ -68,6 +68,16 @@ font-size: 16px;
     border-radius: 3px;
     cursor: pointer;
 }
+.productdisplay-right-sizes div:hover{
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.321);
+    transform: scale(1.01);
+    transition: all 0.5s ease;
+}
+.productdisplay-right-sizes div:focus{
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.321);
+    transform: scale(1.01);
+    transition: all 0.5s ease;
+}
 .productdisplay-right button{
     padding: 20px 40px;
     width: 200px;
